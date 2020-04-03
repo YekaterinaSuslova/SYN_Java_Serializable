@@ -11,7 +11,7 @@ public class SYN_JAVA_SERIALIZABLE {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         Characteristic[] commonwealth = new Characteristic[2];
 
-        Characteristic Kazakhstan = new Characteristic("Repunlic of Kazakhstan", "Tenge", "Nur-Sultan");
+        Characteristic Kazakhstan = new Characteristic("Republic of Kazakhstan", "Tenge", "Nur-Sultan");
 
         Characteristic Russia = new Characteristic("Russian Federation", "Ruble", "Moscow");
         Russia.setCountry(Kazakhstan);
